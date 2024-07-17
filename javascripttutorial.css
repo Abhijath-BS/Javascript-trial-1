@@ -1,0 +1,235 @@
+/* Display Date and Time */
+
+.date-time-main {
+    padding-left: 50px;
+}
+
+.date-time {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+}
+
+.btn-date-time {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+
+.demo {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* Display Date and Time */
+
+/* ............................................................................................. */
+
+/* Changing HTML content using JavaScript */
+
+.changing-html-content-main {
+    padding-top: 20px;
+    padding-left: 980px;
+
+}
+
+.html-content {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+}
+
+.demo0 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.btn-content-change {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+/* Changing HTML content using JavaScript */
+
+/* ............................................................................................. */
+
+/* Changing HTML attribute values */
+
+.change-html-attribute-value-main {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.off-btn {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.on-btn {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.change-html-attribute-value-main h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+}
+
+.change-html-attribute-value-main p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* Changing HTML attribute values */
+
+/* ............................................................................................. */
+
+/* Changing HTML Styles */
+
+.changing-html-style-main {
+    padding-left: 980px;
+    padding-bottom: 20px;
+}
+
+.changing-html-style-main h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+}
+
+.changing-html-style-main p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.changing-html-style-main button {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+/* Changing HTML Styles */
+
+/* ............................................................................................. */
+
+/* Changing HTML Style - HIDE ELEMENT  */
+
+.hiding-html-element-main {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.hiding-html-element-main h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+}
+
+.hiding-html-element-main p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.hiding-html-element-main button {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+/* Changing HTML Style - HIDE ELEMENT  */
+
+/* ............................................................................................. */
+
+/* Changing HTML Style - SHOW ELEMENT  */
+
+.showing-html-element-main {
+    padding-left: 980px;
+    padding-bottom: 20px;
+}
+
+.showing-html-element-main h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+}
+
+.showing-html-element-main p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.showing-html-element-main button {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+/* Changing HTML Style - SHOW ELEMENT  */
+
+/* ............................................................................................. */
+
+/* The script for this section is placed externally - External Script */
+
+.external-script-jsfile {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.external-script-jsfile p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.external-script-jsfile button{
+    color: white;
+    background-color:black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.external-script-jsfile-span{
+    color: red;
+}
+
+/* The script for this section is placed externally - External Script */
+
+/* ............................................................................................. */

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Tutorial</title>
+    <link rel="stylesheet" href="./javascripttutorial.css">
+</head>
+
+<body>
+
+    <!-- Display Date and Time -->
+    <section class="date-time-main">
+
+        <p class="date-time">Click button below to display date and time</p>
+
+        <button type="button" class="btn-date-time" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+
+
+        <p id="demo" class="demo"></p>
+
+    </section>
+    <!-- Display Date and Time -->
+
+    <!-- ......................................................................................................................... -->
+
+    <!-- Changing HTML content using JavaScript -->
+    <section class="changing-html-content-main">
+
+        <h1 class="html-content">Changing HTML content using Java Script</h1>
+        <p id="demo0" class="demo0">JavaScript can change HTML content.</p>
+
+        <button type="button" class="btn-content-change"
+            onclick="document.getElementById('demo0').innerHTML='Hello JavaScript!!!'">Click
+            Me!</button>
+
+    </section>
+
+    <!-- Changing HTML content using JavaScript -->
+
+    <!-- ......................................................................................................................... -->
+
+    <!-- Changing HTML attribute values -->
+
+    <section class="change-html-attribute-value-main">
+        <h1>Changing HTML attribute values</h1>
+        <p>JavaScript changes the value of the src (source) attribute of an image.</p>
+
+        <button class="off-btn" onclick="document.getElementById('myImage').src='./Images/pic_bulboff.gif'">Turn
+            on the light
+        </button>
+
+        <img id="myImage" src="./Images/pic_bulboff.gif" alt="">
+
+        <button class="on-btn" onclick="document.getElementById('myImage').src='./Images/pic_bulbon.gif'">Turn
+            off the light
+        </button>
+
+    </section>
+
+    <!-- Changing HTML attribute values -->
+
+    <!-- ......................................................................................................................... -->
+
+    <!-- Changing HTML Styles -->
+    <section class="changing-html-style-main">
+
+        <h1>Changing HTML Styles</h1>
+
+        <p id="demo1">JavaScript can change style of an HTML.</p>
+
+        <button type="button" onclick="document.getElementById('demo1').style.fontSize ='35px'">Click Me!</button>
+
+
+    </section>
+
+    <!-- Changing HTML Styles -->
+
+    <!-- ......................................................................................................................... -->
+
+    <!-- Changing HTML Style - HIDE ELEMENT -->
+
+    <section class="hiding-html-element-main">
+
+        <h1>Hiding HTML elements</h1>
+
+        <p id="demo2">JavaScript can hide HTML element.</p>
+
+        <button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me!</button>
+
+    </section>
+
+    <!-- Changing HTML Style - HIDE ELEMENT -->
+
+    <!-- ......................................................................................................................... -->
+
+    <!-- Changing HTML Style - Show ELEMENT -->
+
+    <section class="showing-html-element-main">
+
+        <h1>Showing HTML elements</h1>
+
+        <p>JavaScript can show HTML element.</p>
+
+        <p id="demo3" style="display: none;">Hello Java Script!!</p>
+
+        <button type="button" onclick="document.getElementById('demo3').style.display='block'">Click Me!</button>
+
+    </section>
+
+    <!-- Changing HTML Style - Show ELEMENT -->
+
+    <!-- ......................................................................................................................... -->
+
+    <!-- The script for this section is placed externally - External Script -->
+
+    <section class="external-script-jsfile">
+        <p id="demo4">This paragraph is scripted externally with a file path of .js extension <br>
+            <br>
+            <span class="external-script-jsfile-span"> Code written in external file <br>
+                <br>
+                function myFunction() { <br>
+                document.getElementById("demo4").innerHTML = "THE PARAGRAPH IS CHANGED WITH WITH A JS FILE.";<br>
+                }
+            </span>
+        </p>
+
+        <button type="button" onclick="myFunction()">Try it</button>
+
+    </section>
+
+    <!-- The script for this section is placed externally - External Script -->
+
+    <!-- ......................................................................................................................... -->
+
+
+
+
+
+
+    <script src="./javascripttutorial.js"></script>
+</body>
+
+</html>
